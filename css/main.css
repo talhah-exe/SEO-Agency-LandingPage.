@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========TypoGraphy===========*/
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #050931;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========NavBar===========*/
+
+.navbar {
+  background-color: #ecf1f4;
+}
+.navbar .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #636972;
+  transition: all 0.4s ease-out;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #55bc7e;
+}
+
+/* ========Hero===========*/
+.hero {
+  background: #ecf1f4;
+}
+.hero span {
+  background: #d3e8e1;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #4e6570;
+}
+.hero p {
+  margin-top: 10px;
+}
+
+.about2 {
+  background: #ecf1f4;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
+.section2{
+  background-color: #ecf1f4;
+}
+.subscribe{
+  background: #344763;
+}
+.services{
+  background: #ecf1f4 ;
+}
+
+.services .box{
+  background: white;
+}
+.ABOUT{
+  background-color: #ecf1f4 ;
+}
+.strategy{
+  background-color: #ecf1f4 ;
+}
+.bp{
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.client{
+  height: 70px;
+  width: 70px;
+}
+.clients{
+  background-color: #ecf1f4;
+}
+footer{
+  background-color: #344763;
+  color: white;
+}
